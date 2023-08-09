@@ -5,7 +5,7 @@ function Socials(){
 
 
     return(
-        <div className='hidden md:flex  fixed left-0 top-[35%] '>
+        <div className='hidden lg:flex  fixed left-0 top-[35%] '>
             <ul>
                 {NavData.map(data=>(
                    <li style={{backgroundColor:`${data.bg}`}} className={`w-[140px] h-[50px] px-2 flex justify-between font-bold text-xl items-center ml-[-90px] hover:ml-[-2px] duration-300 transition-all ease-in-out`}>

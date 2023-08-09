@@ -9,9 +9,9 @@ function Navbar(){
 
 
     return(
-        <div className='fixed w-full h-[80px] flex items-center justify-between bg-[#0a192f] text-gray-400 px-6'>
+        <div className='fixed w-full h-[80px] flex items-center justify-between bg-[#0a192f] text-gray-400 px-6 border-b-2 border-gray-800'>
             <div>
-                <img src="" alt="logo" />
+                <img className='text-pink-600' src="" alt="logo" />
             </div>
             <div className=''>
                 <ul className='hidden md:flex items-center font-bold'>
