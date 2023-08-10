@@ -5,7 +5,7 @@ import Socials from '../common/Socials';
 
 
 function Navbar(){
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
 
     return(
