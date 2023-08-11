@@ -11,7 +11,7 @@ function Skills(){
 
 
     return(
-        <div name='Skills' className='w-full h-screen bg-[#0a192f] text-gray-300 px-4'>
+        <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300 px-4'>
             <div className='max-w-[900px] mx-auto flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='font-bold text-4xl inline-block border-b-4 border-pink-600 '>Skills</p>

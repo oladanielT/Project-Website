@@ -5,7 +5,7 @@ import WorkData from '../workData'
 function Works(){
 
     return(
-        <div name='Works' className='w-full md:h-screen bg-[#0a192f] text-gray-300 px-4'>
+        <div name='work' className='w-full md:h-screen bg-[#0a192f] text-gray-300 p-4'>
             <div className='max-w-[1000px] mx-auto flex flex-col justify-center h-full w-full'>
                 <div className=''>
                     <div className='py-4'>
@@ -13,7 +13,7 @@ function Works(){
                         <p className='text-gray-400 py-2'>Check out some of my recent work</p>
                     </div>
 
-                    <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
+                    <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                         {WorkData.map(data=>(
                             <div style={{backgroundImage:`url(${data.image})`}} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content-div'>
 
