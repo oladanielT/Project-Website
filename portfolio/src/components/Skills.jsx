@@ -1,5 +1,5 @@
 import React from 'react';
-import css from '../assets/projectcss.png';
+import project from '../assets/project.png';
 import javascript from '../assets/JAVASCRIPT.png';
 import html from '../assets/html.png';
 import github from '../assets/github.png';
@@ -24,7 +24,7 @@ function Skills(){
                         <p className='py-4'>HTML</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 my-2 '>
-                        <img className='w-20 mx-auto' src={css} alt="html" />
+                        <img className='w-20 mx-auto' src={project} alt="html" />
                         <p className='py-4'>CSS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 my-2 '>
