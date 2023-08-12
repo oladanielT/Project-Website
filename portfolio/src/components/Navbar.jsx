@@ -18,7 +18,7 @@ function Navbar(){
             <div className=''>
                 <ul className='hidden md:flex items-center font-bold'>
                 <li className='p-4'>
-                    <Link activeClass="active" className='cursor-pointer'  to="home" smooth={true} duration={500}>
+                    <Link  className='cursor-pointer'  to="home" smooth={true} duration={500}>
                             Home
                         </Link>
                     </li>
