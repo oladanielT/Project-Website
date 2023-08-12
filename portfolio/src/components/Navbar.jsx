@@ -18,7 +18,7 @@ function Navbar(){
             <div className=''>
                 <ul className='hidden md:flex items-center font-bold'>
                 <li className='p-4'>
-                    <Link className='cursor-pointer'  to="home" smooth={true} duration={500}>
+                    <Link activeClass="active" className='cursor-pointer'  to="home" smooth={true} duration={500}>
                             Home
                         </Link>
                     </li>
@@ -56,7 +56,7 @@ function Navbar(){
             <div className={` fixed ${show?"left-0 ":'left-[-100%]'} top-[82px] w-full h-screen flex flex-col justify-center text-3xl items-center bg-[#0a192f] py-4 md:hidden ease-in-out duration-300 transition-all z-10`} >
                 <ul className='flex flex-col justify-center font-bold'>
                 <li className='p-4'>
-                        <Link className='cursor-pointer' onClick={()=>setShow(!show)}  to="home" smooth={true} duration={500}>
+                        <Link activeClass="active" className='cursor-pointer' onClick={()=>setShow(!show)}  to="home" smooth={true} duration={500}>
                             Home
                         </Link>
                     </li>
