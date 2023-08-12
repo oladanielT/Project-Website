@@ -17,7 +17,31 @@ function Navbar(){
             </div>
             <div className=''>
                 <ul className='hidden md:flex items-center font-bold'>
-                
+                <li className='p-4'>
+                    <Link className='cursor-pointer'  to="home" smooth={true} duration={500}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className='p-4'>
+                    <Link className='cursor-pointer' to="about" smooth={true} duration={500}>
+                            About
+                        </Link>
+                    </li>
+                    <li className='p-4'>
+                    <Link className='cursor-pointer' to="skills" smooth={true} duration={500}>
+                            Skills
+                        </Link>
+                    </li>
+                    <li className='p-4'>
+                    <Link className='cursor-pointer' to="work" smooth={true} duration={500}>
+                            Works
+                        </Link>
+                    </li>
+                    <li className='p-4'>
+                    <Link className='cursor-pointer' to="contacts" smooth={true} duration={500}>
+                            Contacts
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className='block md:hidden' onClick={()=>setShow(!show)}>

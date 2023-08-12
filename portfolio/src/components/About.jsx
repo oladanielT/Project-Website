@@ -19,7 +19,7 @@ function About(){
                     </div>
                     <div>
                         <p>
-                        I'm a front-end web magician passionate about turning designs into pixel-perfect realities. 
+                        I'm a front-end web magician, passionate about turning designs into pixel-perfect realities. 
                         With HTML, CSS, TailwindCss, JavaScript and React.js  as my tools, I craft seamless user experiences that blend creativity with functionality.
                          Let's collaborate and bring your digital dreams to life.
                         </p>
